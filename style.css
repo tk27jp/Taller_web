@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(101, 198, 218);
+    color: black;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    background: #629dcd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 255, 100, 0.1);
+}
+
+header {
+    background: rgb(53, 169, 178);
+    color: black;
+    padding: 1.5rem 0;
+    text-align: center;
+    border-bottom: 3px solid beige;
+    border-radius: 8px 8px 0 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em; 
+}
+article {
+    padding: 20px 0;
+}
+
+article h2 {
+    color: yellow;
+    border-bottom: 2px solid beige;
+    padding-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background: rgb(53, 169, 178);
+    border-radius: 0 0 8px 8px;
+}
+
+.highlight {
+    background-color: beige;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    
+    .container {
+        background-color:rgb(50, 174, 50);
+        width: 95%; 
+    }
+    header h1 {
+        font-size: 2em; 
+    }
+    article h2 {
+        font-size: 1.5em; 
+    }
+    p {
+        font-size: 1em;
+    }
+    footer p {
+        font-size: 1em;
+    }
+}
+
+
+@media (max-width: 480px) {
+   
+    body {
+        padding: 10px; 
+    }
+    .container {
+        background-color:rgb(233, 173, 183);
+        padding: 15px; 
+    }
+    header h1 {
+        font-size: 1.5em;
+    }
+    article h2 {
+        font-size: 1.3em;
+    }
+    p {
+        font-size: 0.9em; 
+    }
+    .highlight {
+        display: none; 
+    }
+    footer p {
+        font-size: 0.9em;
+    }
+}
